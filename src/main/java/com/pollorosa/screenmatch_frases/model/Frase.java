@@ -8,8 +8,8 @@ public class Frase {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String pelicula;
-    private String farse;
+    private String media;
+    private String frase;
     private String autor;
     private String poster;
 
